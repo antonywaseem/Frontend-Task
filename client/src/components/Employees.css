@@ -1,0 +1,50 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+tfoot {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 13px;
+  margin: -4px 0px 12px -8px;
+  display: inline-block;
+  border: none;
+  background: #d9d9d9;
+}
+
+button,
+.button {
+  background-color: yellowgreen; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#body tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
